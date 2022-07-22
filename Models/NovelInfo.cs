@@ -1,6 +1,6 @@
-using System.Collections.Generic;
+//using System.Collections.Generic;
 
-namespace AustenNovels.Models;
+//namespace AustenNovels.Models;
 //{// 
 //    public class NovelInfo
 //    {

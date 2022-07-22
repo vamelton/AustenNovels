@@ -7,13 +7,15 @@ namespace AustenNovels.Models
     {
         [Key]
         public int ID { get; set; }
-        public string Title { get; set;}
-        public double PublishedYear { get; set;}
-        public string Characters { get;  set ;}
-        public string Summary { get; set;}
-        public string Biography { get; set;}
+        public string Title { get; set; }
+        public double PublishedYear { get; set; }
+        public string Characters { get; set; }
+        public string Summary { get; set; }
+        public string Biography { get; set; }
 
     }
 
-    
-}   
+
+
+    }
+

@@ -78,10 +78,6 @@ namespace AustenNovels.Controllers
             NovelInfo.Add(biography);
 
         }
-        public List<string> GetNovelInfo()
-        {
-            return this.Select(NovelInfo => Books.Title).Distinct().OrderedBy(x => x).ToList();
-        }
-        public List<NovelInfo> GetNovelInfoPublishedYear(int year = default);
+      
     }
 }
