@@ -9,6 +9,6 @@ public class Context : DbContext
         // connect to sqlite database
         options.UseSqlite(@"Data Source=test.db");
     }
-   
-   public DbSet<Books> AustenNovels {get; set;}
+
+    public DbSet<Books> Books { get; set; }
 }

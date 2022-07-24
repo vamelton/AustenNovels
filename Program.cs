@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<DbContext>();
+builder.Services.AddDbContext<Context>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
