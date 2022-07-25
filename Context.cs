@@ -4,6 +4,7 @@ using System.Text.Json;
 
 public class Context : DbContext
 {
+    public object Books { get; internal set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

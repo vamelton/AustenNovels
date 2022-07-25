@@ -21,9 +21,9 @@ namespace AustenNovels.Controllers
         // GET: Books
         public async Task<IActionResult> Index()
         {
-              return _context.Books != null ? 
-                          View(await _context.Books.ToListAsync()) :
-                          Problem("Entity set 'Context.Books'  is null.");
+            return _context.Books != null ?
+                        View(await _context.Books.ToListAsync()) :
+                        Problem("Entity set 'Context.Books'  is null.");
         }
 
         // GET: Books/Details/5
@@ -149,14 +149,14 @@ namespace AustenNovels.Controllers
             {
                 _context.Books.Remove(books);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool BooksExists(int id)
         {
-          return (_context.Books?.Any(e => e.ID == id)).GetValueOrDefault();
+            return (_context.Books?.Any(e => e.ID == id)).GetValueOrDefault();
         }
     }
 }
