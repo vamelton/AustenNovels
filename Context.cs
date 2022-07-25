@@ -1,14 +1,33 @@
 using Microsoft.EntityFrameworkCore;
 using AustenNovels.Models;
+using System.Text.Json;
 
 public class Context : DbContext
 {
 
-    protected override void OnConfiguring(DbContextOptionsBuilder options)
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // connect to sqlite database
-        options.UseSqlite(@"Data Source=test.db");
-    }
+        List<Books> books = new List<Books>();
 
-    public DbSet<Books> Books { get; set; }
+        using (StreamReader p = new StreamReader("BookSeedData.json"))
+        {
+            string json = p.ReadToEnd();
+            books = JsonSerializer.Deserialize<List<Books>>(json);
+        }
+        foreach (Books book in books)
+        {
+            modelBuilder.Entity<Books>().HasData(
+                new Books
+                {
+                    ID = book.ID,
+                    Title = book.Title,
+                    PublishedYear = book.PublishedYear,
+                    Characters = book.Characters,
+                    Summary = book.Summary,
+                    Biography = book.Biography
+                }
+            );
+        }
+        base.OnModelCreating(modelBuilder);
+    }
 }
