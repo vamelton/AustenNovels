@@ -4,8 +4,13 @@ using System.Text.Json;
 
 public class Context : DbContext
 {
-    public object Books { get; internal set; }
 
+    protected override void OnConfiguring(DbContextOptionsBuilder options)
+    {
+        // connect to sqlite database
+        options.UseSqlite(@"Data Source=books.db");
+
+    }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         List<Books> books = new List<Books>();
@@ -31,4 +36,5 @@ public class Context : DbContext
         }
         base.OnModelCreating(modelBuilder);
     }
+    public DbSet<Books> Books { get; set; }
 }
