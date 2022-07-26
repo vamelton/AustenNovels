@@ -1,5 +1,4 @@
- using (StreamReader p = new StreamReader("BookSeedData.json"))
-
+{
   [
     {
       "ID": 1,
@@ -46,3 +45,4 @@
 
     }
   ]
+}

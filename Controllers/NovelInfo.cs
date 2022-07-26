@@ -57,16 +57,7 @@ namespace AustenNovels.Controllers
                     "This new friendship leads to an invitiatoin to vist the Tilney's home at Northanger Abbey.  While staying with the Tilney's, Catherine learns of their families past and makes some wild accusations." +
                     "Will Catherine and Henry be able to mend their relationship after such false claims? ");
 
-            Books biography = new Books();
-            biography.Biography = ("Jane Austen was born on December 16, 1775 in Steventon, Hampshire.  She was the seventh out of eight children to George and Cassandra Austen." +
-                "Jane was sent to boarding school at the age of eight to receive her formal education.  Any education after boarding school was due to her father's library and teachings from her silbings." +
-                "She began writing from an early age which was encouraged by her family.  They would frequently write stories and plays and act out for one another." +
-                "Jane began writing the early versions of Sense and Sensibility along with Pride and Prejudice even though they would not be formally published for many years. " +
-                "When Jane was thirty three when she moved to Chawton Cottage which was a cottage on one of her brother's property.  Here is where she flurished and produced the majority of her novels. " +
-                "Sense and Sensibility was published in 1811.  Pride and Prejudice was published in 1813 quickly followed by Mansfield Park in 1814.  The last novel to be published while Austen was alive was Emma in 1815." +
-                "Austen had wrote in secret, so all of her novels were By a Lady.  Her last two completed novels were Persuasion and Northanger Abbey, and were published in 1817 after her death." +
-                "Jane Austen died on July 18, 1817.  Her health had begin to deterioate in 1816, but she ingnored the symptoms.  By April of 1817 she was confined to a bed." +
-                "After her death, her brother Henry unvieled Jane's name and connected her to her novels for the first time.  Her novels have continued to be popular as time goes on, and is considered one of the greatest authors.");
+          
 
             List<Books> NovelInfo = new List<Books>();
             NovelInfo.Add(novel1);
@@ -75,7 +66,7 @@ namespace AustenNovels.Controllers
             NovelInfo.Add(novel4);
             NovelInfo.Add(novel5);
             NovelInfo.Add(novel6);
-            NovelInfo.Add(biography);
+            
 
         }
       

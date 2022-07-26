@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using AustenNovels.Models;
 using System.Text.Json;
 
+
 public class Context : DbContext
 {
 
@@ -15,7 +16,7 @@ public class Context : DbContext
     {
         List<Books> books = new List<Books>();
 
-        using (StreamReader p = new StreamReader("BookSeedData.json"))
+        using (StreamReader p = new StreamReader("json.json")) 
         {
             string json = p.ReadToEnd();
             books = JsonSerializer.Deserialize<List<Books>>(json);
@@ -30,7 +31,7 @@ public class Context : DbContext
                     PublishedYear = book.PublishedYear,
                     Characters = book.Characters,
                     Summary = book.Summary,
-                    Biography = book.Biography
+                    
                 }
             );
         }
