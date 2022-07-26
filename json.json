@@ -1,4 +1,4 @@
-{
+
   [
     {
       "ID": 1,
@@ -25,24 +25,23 @@
     {
       "ID": 4,
       "Title": "Emma",
-      "PublishedYear": "1815",
+      "PublishedYear": 1815,
       "Characters": "Emma Woodhouse, George Knightley, Harriet Smith, Frank Churchill, Jane Fairfax",
       "Summary": "Emma Woodhouse loves to play match maker when given the opportunity.  Emma is beautiful, witty, aggrogant and believes things will go her way. However when her match matching skills begin to fail, will she be able to rise above?  Will she find love herself?"
     },
     {
       "ID": 5,
       "Title": "Persuasion",
-      "PublishedYear": "1817",
+      "PublishedYear": 1817,
       "Characters": "Anne Elliot, Captain Frederick Wentworth, Lady Russell, William Elliot, Lousia Musgrove",
       "Summary": "Anne Elliot is a sweet tempered young woman who is persuaded to end her engagement with Frederick Wentworth over his lack of fortune. Eight years later, Captain Wentworth has returned to England rich and successful however has not forgiven Anne.  Anne has since matured and become more independent, and still in love with him. As Captain Wentworth and Anne Elliot become more and more in each others circles, will their love resurface?"
     },
     {
       "ID": 6,
       "Title": "Northanger Abbey",
-      "PublishedYear": "1817",
+      "PublishedYear": 1817,
       "Characters": "Catherine Morland, Henry Tilney, James Morland, Isabella Thorpe, John Thorpe, Eleanor Tilney",
       "Summary": "Catherine Morland's first journey away from home is to Bath with family friends.  While in Bath she meets Isabella Thorpe amd Henry Tilney. This new friendship leads to an invitiatoin to vist the Tilney's home at Northanger Abbey.  While staying with the Tilney's, Catherine learns of their families past and makes some wild accusations. Will Catherine and Henry be able to mend their relationship after such false claims?"
 
     }
   ]
-}

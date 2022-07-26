@@ -1,5 +1,7 @@
 using AustenNovels.Models;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+
 
 namespace AustenNovels.Models
 {
