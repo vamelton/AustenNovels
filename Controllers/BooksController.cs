@@ -55,7 +55,7 @@ namespace AustenNovels.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Title,PublishedYear,Characters,Summary,Biography")] Books books)
+        public async Task<IActionResult> Create([Bind("ID,Title,PublishedYear,Characters,Summary")] Books books)
         {
             if (ModelState.IsValid)
             {
@@ -87,7 +87,7 @@ namespace AustenNovels.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Title,PublishedYear,Characters,Summary,Biography")] Books books)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Title,PublishedYear,Characters,Summary")] Books books)
         {
             if (id != books.ID)
             {
