@@ -14,8 +14,8 @@ namespace AustenNovels.Controllers
             novel1.Title = ("Sense and Sensibility");
             novel1.PublishedYear = (1811);
             novel1.Characters = ("Elinor Dashwood, Marianne Dashwood, Edward Ferrars, Colonel Christopher Brandon, John Willoughby, Mrs. Jennings, Lucy Steele");
-            novel1.Summary = ("Sisters Elinor and Marianne Dashwood along with their mother and younger sister find themselves borderline penniless and homeless once their father dies.  His estate is left to his first wife's son instead." +
-                    "A relative provides a cottage away from what they know for the family to move into.  As the sister begin settling into their new lives they learn about love, happiness, and life.");
+            novel1.Summary = ("Sisters Elinor and Marianne Dashwood along with their mother and younger sister find themselves borderline penniless and homeless when their father dies.  His estate is left to his first wife's son instead." +
+                    "A relative provides a cottage for the family away from what they know.  As the sisters begin settling into their new lives they learn about love, happiness, and life.");
 
             Books novel2 = new Books();
             novel2.Title = ("Pride and Prejudice");
