@@ -2,13 +2,13 @@
  This project provides an overview into all the novels written by Jane Austen.  We learn the title of the each book, the year it was published, characters involved, and a summary of the book. Information can be added, removed, and saved to further expand on the topic.
  
 ## Technologies 
-      Backend: C# 10 and .NET 6
-      ORM: EF 6
-     Database: SQL 
-     Frontend: HTML/JS/CSS
+    - Backend: C# 10 and .NET 6
+    - ORM: EF 6
+    - Database: SQL 
+    - Frontend: HTML/JS/CSS
 
 ## Patterns
-     -MVC (Model, View, Controller)
+     - MVC (Model, View, Controller)
     - Code First Database creation 
     
 ## Getting Started 
