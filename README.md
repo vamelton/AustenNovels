@@ -20,5 +20,9 @@
    - Created a List.
    - Read data from an external JSON file.
    - A LINQ query to retrieve information from a data structure.
+   
+ ## Next Steps
+  - Update CSS and JavaScript.
+  - Add a footer for a Jane Austen Biography.  
 
 Thank you! 
