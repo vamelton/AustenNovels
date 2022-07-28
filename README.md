@@ -1,5 +1,5 @@
 # Session 2 Project: AustenNovels
- This project provides an overview into all the novels written by Jane Austen.  We learn the title of the each book, the year it was published, characters involved, and a summary of the book. Information can be added, removed, and saved to further expand on the topic.
+ This project provides an overview into all the novels written by Jane Austen.  We learn the title of each book, the year it was published, characters involved, and a summary of the book. Information can be added, removed, and saved to further expand on the topic.
  
 ## Technologies 
     - Backend: C# 10 and .NET 6
